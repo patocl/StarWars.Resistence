@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\StarWars.Resistencia\StarWars.Resistance.csproj" />
+    <ProjectReference Include="..\StarWars.Resistence\StarWars.Resistance.csproj" />
   </ItemGroup>
 
 </Project>

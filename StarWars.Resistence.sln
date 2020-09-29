@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWars.Resistance", "StarWars.Resistencia\StarWars.Resistance.csproj", "{D88AE22F-DC99-4412-8448-B9284C590DDD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWars.Resistance", "StarWars.Resistence\StarWars.Resistance.csproj", "{D88AE22F-DC99-4412-8448-B9284C590DDD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWars.Resistance.Tests", "StarWars.Resistence.Tests\StarWars.Resistance.Tests.csproj", "{EFC7C272-9936-43B6-9325-2B31CDFDA731}"
 EndProject
