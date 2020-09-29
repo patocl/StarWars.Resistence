@@ -378,6 +378,7 @@ namespace StarWars.Resistance.Tests
         public void SolutionWithDifferentArrays(int[] array, int expected)
         {
             var actual = Solution1.Solution(array);
+            _output.WriteLine("This is output from {0}", $"Solution 3 - {{ {string.Join(", ", array) } }} are {actual}");
             Assert.Equal(expected, actual);
         }
 
