@@ -1,4 +1,4 @@
-﻿# Solution proposal for JSC Ingenium Challenge
+﻿# Solución al reto de JSC Ingenium
 
 ## Problema
 
@@ -36,9 +36,7 @@ Encontramos 4 cumbres, que se corresponden con los índices 1, 3, 5 y 10 del arr
 Vamos a planificar el vuelo de nuestro dron sobre las cumbres, las alturas relativas están representadas 
 por el valor de la posición del array A, como se muestra en la siguiente figura. 
 
-```
-figura pendiente
-```
+![Figura](../assets/figure.png)
 
 Tienes que elegir cuantos cañones laser necesita cargar el dron. El objetivo es establecer el número máximo 
 de cañones en las cumbres, de acuerdo con ciertas reglas que nos plantea R2D2.
@@ -90,7 +88,7 @@ La función debe retornar 3.
 ## Implementación
 
 He creado 3 algoritmos diferentes para realizar la tarea, a los que he creado en las clases
-Solution1, Solution2, Solution3 con el metodo Solution(), los métodos son estáticos.
+Solution1, Solution2, Solution3 con el método Solution(), los métodos son estáticos.
 
 Ver la ejecucion del programa:
 
@@ -98,9 +96,9 @@ Ver la ejecucion del programa:
 
 ## Selección del mejor algoritmo
 
-Después de implementarlo y validarlo, debo seleccionar el más rápido, así que creé un nuevo proyecto 
-para evaluarlo usando la biblioteca .NET [BenchmarkDotNet] (https://benchmarkdotnet.org/index.html) 
-en [repositorio github] (https : //github.com/dotnet/BenchmarkDotNet)
+Después de implementarlos y validarles, debo seleccionar el más rápido, así que he creado un nuevo proyecto 
+para evaluarlo usando la biblioteca .NET [BenchmarkDotNet](https://benchmarkdotnet.org/index.html) 
+en [repositorio github](https://github.com/dotnet/BenchmarkDotNet)
 
 ### Algunos pasos para ejecutar el proyecto Benchmark
 
@@ -155,9 +153,10 @@ se poddría haber implementado multithread en algunas partes, me lo dejo para un
 
 ¡Realmente disfruté realizando este desafío!
 
-** Encuéntrame en la web **
+**Encuéntrame en la web**
 
 * Mi perfil en [Linkedin] (https://www.linkedin.com/in/patocl/?locale=en_US)
 * Colaborando en [GitHub] (https://github.com/patocl)
 * Aprendiendo sobre [Pluralsight] (https://app.pluralsight.com/profile/patocl)
 ***
+
