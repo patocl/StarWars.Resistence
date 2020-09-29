@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWars.Resistance", "StarWars.Resistencia\StarWars.Resistance.csproj", "{D88AE22F-DC99-4412-8448-B9284C590DDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWars.Resistance.Tests", "StarWars.Resistence.Tests\StarWars.Resistance.Tests.csproj", "{EFC7C272-9936-43B6-9325-2B31CDFDA731}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWars.Resistance.Benchmarks", "StarWars.Resistance.Benhmarks\StarWars.Resistance.Benchmarks.csproj", "{68FE22F6-DB24-4599-9241-A47F9F13179F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Reports", "Reports", "{07825D05-A31B-45F2-AA00-868482DD927F}"
+	ProjectSection(SolutionItems) = preProject
+		BenchmarkDotNet.Artifacts\results\StarWars.Resistance.Benchmarks.Solutions-report-github.md = BenchmarkDotNet.Artifacts\results\StarWars.Resistance.Benchmarks.Solutions-report-github.md
+		BenchmarkDotNet.Artifacts\results\StarWars.Resistance.Benchmarks.SolutionsWithRandom-report-github.md = BenchmarkDotNet.Artifacts\results\StarWars.Resistance.Benchmarks.SolutionsWithRandom-report-github.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D88AE22F-DC99-4412-8448-B9284C590DDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D88AE22F-DC99-4412-8448-B9284C590DDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D88AE22F-DC99-4412-8448-B9284C590DDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D88AE22F-DC99-4412-8448-B9284C590DDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFC7C272-9936-43B6-9325-2B31CDFDA731}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFC7C272-9936-43B6-9325-2B31CDFDA731}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFC7C272-9936-43B6-9325-2B31CDFDA731}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFC7C272-9936-43B6-9325-2B31CDFDA731}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68FE22F6-DB24-4599-9241-A47F9F13179F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68FE22F6-DB24-4599-9241-A47F9F13179F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68FE22F6-DB24-4599-9241-A47F9F13179F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68FE22F6-DB24-4599-9241-A47F9F13179F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC1B5CCC-BB78-430A-AAF0-26F3FB49BCC8}
+	EndGlobalSection
+EndGlobal
