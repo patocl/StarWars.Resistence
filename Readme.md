@@ -36,7 +36,7 @@ Encontramos 4 cumbres, que se corresponden con los índices 1, 3, 5 y 10 del arr
 Vamos a planificar el vuelo de nuestro dron sobre las cumbres, las alturas relativas están representadas 
 por el valor de la posición del array A, como se muestra en la siguiente figura. 
 
-![Figura](../../assets/figure.png)
+![Figura](./assets/figure.png)
 
 Tienes que elegir cuantos cañones laser necesita cargar el dron. El objetivo es establecer el número máximo 
 de cañones en las cumbres, de acuerdo con ciertas reglas que nos plantea R2D2.
@@ -92,7 +92,7 @@ Solution1, Solution2, Solution3 con el método Solution(), los métodos son est�
 
 Ver la ejecucion del programa:
 
-![Ejecucion](../../assets/result.png)
+![Ejecucion](./assets/result.png)
 
 ## Selección del mejor algoritmo
 
